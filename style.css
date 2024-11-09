@@ -1,0 +1,694 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.firstpic {
+    width: 100%;   
+    height: auto;   
+    object-fit: cover;  
+    padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .firstpic {
+        width: 100%; 
+        height: 100vh;     
+        object-fit: cover; 
+    }
+}
+
+.hname {
+    position: absolute;
+    top: 30px;                        /* Positioned at the top of the image */
+    left: 11%;                       /* Positioned from the left of the image */
+    color: white;                   /* White text */
+    background: transparent;  /* Semi-transparent black background */
+    font-size: 2.2rem;              /* Text size */
+    text-align: center;             /* Center the text */
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 10px 5px 15px black;  /* Shadow effect */
+    padding: 10px 20px;             /* Padding around the text */
+    border: none;                   /* Remove default button border */
+    border-radius: 5px;             /* Rounded corners */
+    cursor: pointer;                /* Pointer cursor for interactivity */
+    z-index: 1;                     /* Ensure button is on top */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+/*.hname:hover {
+
+}*/
+
+@media (max-width: 768px) {
+    .hname {
+        font-size: 1.7rem;          /* Smaller font size for mobile */
+        top: 15px;                     /* Position closer to the top */
+        left: 10px;                 /* Adjust left padding for mobile */
+        padding: 5px 10px;          /* Adjust padding for smaller screens */
+        border-radius: 3px;         /* Slightly smaller rounded corners */
+    }
+}
+
+.runads {
+    position: absolute;
+    top: 2.5rem;                        /* Positioned at the top of the image */
+    left: 32.5%;                      /* Positioned from the left of the image */
+    color: white;                   /* White text */
+    background: transparent;        /* Transparent background */
+    font-size: 20px;                /* Text size */
+    text-align: center;             /* Center the text */
+    font-family: 'Arial', sans-serif;
+    text-shadow: 10px 5px 15px black;  /* Shadow effect */
+    padding: 10px 20px;             /* Padding around the text */
+    border: none;                   /* Remove default button border */
+    border-radius: 5px;             /* Rounded corners */
+    cursor: pointer;                /* Pointer cursor for interactivity */
+    z-index: 1;                     /* Ensure button is on top */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.runads:hover {
+    color: rgb(255, 0, 85);         /* Change text color on hover */
+}
+
+/* Media query to hide the button on mobile */
+@media (max-width: 768px) {
+    .runads {
+        display: none;              /* Hide the button on mobile devices */
+    }
+}
+
+.webdev {
+    position: absolute;
+    top: 2.5rem;                        /* Positioned at the top of the image */
+    left: 44%;                      /* Positioned from the left of the image */
+    color: white;                   /* White text */
+    background: transparent;        /* Transparent background */
+    font-size: 20px;                /* Text size */
+    text-align: center;             /* Center the text */
+    font-family: 'Arial', sans-serif;
+    text-shadow: 10px 5px 15px black;  /* Shadow effect */
+    padding: 10px 20px;             /* Padding around the text */
+    border: none;                   /* Remove default button border */
+    border-radius: 5px;             /* Rounded corners */
+    cursor: pointer;                /* Pointer cursor for interactivity */
+    z-index: 1;                     /* Ensure button is on top */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.webdev:hover {
+    color: rgb(255, 0, 85);         /* Change text color on hover */
+}
+
+/* Media query to hide the button on mobile */
+@media (max-width: 768px) {
+    .webdev {
+        display: none;              /* Hide the button on mobile devices */
+    }
+}
+
+.about {
+    position: absolute;
+    top: 2.5rem;                        /* Positioned at the top of the image */
+    left: 61.5%;                      /* Positioned from the left of the image */
+    color: white;                   /* White text */
+    background: transparent;        /* Transparent background */
+    font-size: 20px;                /* Text size */
+    text-align: center;             /* Center the text */
+    font-family: 'Arial', sans-serif;
+    text-shadow: 10px 5px 15px black;  /* Shadow effect */
+    padding: 10px 20px;             /* Padding around the text */
+    border: none;                   /* Remove default button border */
+    border-radius: 5px;             /* Rounded corners */
+    cursor: pointer;                /* Pointer cursor for interactivity */
+    z-index: 1;                     /* Ensure button is on top */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.about:hover {
+    color: rgb(255, 0, 85);         /* Change text color on hover */
+}
+
+/* Media query to hide the button on mobile */
+@media (max-width: 768px) {
+    .about {
+        display: none;              /* Hide the button on mobile devices */
+    }
+}
+
+.contact {
+    position: absolute;
+    top: 2.5rem;                        /* Positioned at the top of the image */
+    left: 80%;                      /* Positioned from the left of the image */
+    color: white;                   /* White text */
+    background-color: rgb(255, 0, 85);        /* Transparent background */
+    font-size: 20px;                /* Text size */
+    text-align: center;             /* Center the text */
+    font-family: 'Arial', sans-serif;
+    text-shadow: 10px 5px 15px black;  /* Shadow effect */
+    padding: 10px 20px;             /* Padding around the text */
+    border: none;                   /* Remove default button border */
+    border-radius: 20px;             /* Rounded corners */
+    cursor: pointer;                /* Pointer cursor for interactivity */
+    z-index: 1;                     /* Ensure button is on top */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.contact:hover {
+    background-color: rgb(60, 0, 255);
+}
+
+/* Media query to hide the button on mobile */
+@media (max-width: 768px) {
+    .contact {
+        display: none;              /* Hide the button on mobile devices */
+    }
+}
+
+.statement {
+    position: absolute;
+    border: 10px;
+    top: 14rem;                        /* Positioned at the top of the image */
+    left: 18rem;                      /* Positioned from the left of the image */
+    color: white;;                   /* White text */
+    font-size: 20px;                /* Text size */ 
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    text-shadow: 10px 0px 20px rgba(0, 0, 0, 5);
+}
+
+/*.statement:hover {
+    color: rgb(255, 255, 255);          Change text color on hover 
+}*/
+
+/* Media query to hide the button on mobile */
+@media (max-width: 768px) {
+    .statement {
+        font-size: 2.4rem;          /* Smaller font size for mobile */
+        font-weight: 600;
+        top: 13.5rem;                     /* Position closer to the top */
+        left: 0%;                 /* Adjust left padding for mobile */
+    }
+}
+
+.barbtn {
+    position: absolute;
+    top: 30px;
+    left: 6%;
+    color: white;
+    background: transparent;
+    font-size: 2.2rem;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 10px 5px 15px black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1;
+    transition: background-color 0.3s ease;
+    display: none; /* Show bar button by default */
+}
+
+.crossbtn {
+    position: absolute;
+    top: 30px;
+    left: 6%;
+    color: white;
+    background: transparent;
+    font-size: 2.2rem;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 10px 5px 15px black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1;
+    transition: background-color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .barbtn {
+        font-size: 1.7rem;
+        top: 15px;
+        left: 88%;
+        padding: 5px 10px;
+        border-radius: 3px;
+        display: block;
+    }
+
+    .crossbtn {
+        font-size: 1.9rem;
+        top: 14px;
+        left: 88.5%;
+        padding: 5px 10px;
+        border-radius: 3px;
+    }
+}
+
+.barbtn1 {
+    position: absolute;
+    top: 4%;                        /* Positioned at the top of the image */
+    left: 32.5%;                      /* Positioned from the left of the image */
+    color: white;                   /* White text */
+    background: transparent;        /* Transparent background */
+    font-size: 20px;                /* Text size */
+    text-align: center;             /* Center the text */
+    font-family: 'Arial', sans-serif;
+    text-shadow: 10px 5px 15px black;  /* Shadow effect */
+    padding: 10px 20px;             /* Padding around the text */
+    border: none;                   /* Remove default button border */
+    border-radius: 5px;             /* Rounded corners */
+    cursor: pointer;                /* Pointer cursor for interactivity */
+    z-index: 1;                     /* Ensure button is on top */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.barbtn1:hover {
+    color: rgb(255, 0, 85);         /* Change text color on hover */
+}
+
+/* Media query to hide the button on mobile */
+@media (max-width: 768px) {
+    .barbtn1 {
+        font-size: 17px;          /* Smaller font size for mobile */
+        top: 12%;                     /* Position closer to the top */
+        left: 20px;                 /* Adjust left padding for mobile */
+        padding: 5px 10px;          /* Adjust padding for smaller screens */
+        border-radius: 3px;         /* Slightly smaller rounded corners */
+    }
+}
+
+.barbtn2 {
+    position: absolute;
+    top: 4%;                        /* Positioned at the top of the image */
+    left: 32.5%;                      /* Positioned from the left of the image */
+    color: white;                   /* White text */
+    background: transparent;        /* Transparent background */
+    font-size: 20px;                /* Text size */
+    text-align: center;             /* Center the text */
+    font-family: 'Arial', sans-serif;
+    text-shadow: 10px 5px 15px black;  /* Shadow effect */
+    padding: 10px 20px;             /* Padding around the text */
+    border: none;                   /* Remove default button border */
+    border-radius: 5px;             /* Rounded corners */
+    cursor: pointer;                /* Pointer cursor for interactivity */
+    z-index: 1;                     /* Ensure button is on top */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.barbtn2:hover {
+    color: rgb(255, 0, 85);         /* Change text color on hover */
+}
+
+/* Media query to hide the button on mobile */
+@media (max-width: 768px) {
+    .barbtn2 {
+        font-size: 17px;          /* Smaller font size for mobile */
+        top: 18%;                     /* Position closer to the top */
+        left: 20px;                 /* Adjust left padding for mobile */
+        padding: 5px 10px;          /* Adjust padding for smaller screens */
+        border-radius: 3px;         /* Slightly smaller rounded corners */
+    }
+}
+
+.barbtn3 {
+    position: absolute;
+    top: 4%;                        /* Positioned at the top of the image */
+    left: 32.5%;                      /* Positioned from the left of the image */
+    color: white;                   /* White text */
+    background: transparent;        /* Transparent background */
+    font-size: 20px;                /* Text size */
+    text-align: center;             /* Center the text */
+    font-family: 'Arial', sans-serif;
+    text-shadow: 10px 5px 15px black;  /* Shadow effect */
+    padding: 10px 20px;             /* Padding around the text */
+    border: none;                   /* Remove default button border */
+    border-radius: 5px;             /* Rounded corners */
+    cursor: pointer;                /* Pointer cursor for interactivity */
+    z-index: 1;                     /* Ensure button is on top */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.barbtn3:hover {
+    color: rgb(255, 0, 85);         /* Change text color on hover */
+}
+
+/* Media query to hide the button on mobile */
+@media (max-width: 768px) {
+    .barbtn3 {
+        font-size: 17px;          /* Smaller font size for mobile */
+        top: 24%;                     /* Position closer to the top */
+        left: 20px;                 /* Adjust left padding for mobile */
+        padding: 5px 10px;          /* Adjust padding for smaller screens */
+        border-radius: 3px;         /* Slightly smaller rounded corners */
+    }
+}
+
+.barbtn4 {
+    position: absolute;
+    top: 33%;                        /* Positioned at the top of the image */
+    left: 11%;                      /* Positioned from the left of the image */
+    color: white;                   /* White text */
+    background-color: rgb(255, 0, 85);        /* Transparent background */
+    font-size: 20px;                /* Text size */
+    text-align: center;             /* Center the text */
+    font-family: 'Arial', sans-serif;
+    text-shadow: 10px 5px 15px black;  /* Shadow effect */
+    padding: 12px 20px;
+    border: none;                   /* Remove default button border */
+    border-radius: 20px;             /* Rounded corners */
+    cursor: pointer;                /* Pointer cursor for interactivity */
+    z-index: 1;                     /* Ensure button is on top */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.barbtn4:hover {
+    background-color: rgb(60, 0, 255);
+}
+
+/* Base styles */
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa; /* Light background color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 900px;
+    margin: 30px auto;
+  }
+  
+  .card-content {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .card-image {
+    flex-shrink: 0;
+    width: 250px; /* Set a fixed width for the image */
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .hline {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .pline {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .getintouch {
+    background-color: rgb(255, 0, 85);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .getintouch:hover {
+    background-color: rgb(225, 0, 75);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .card {
+      flex-direction: column; /* Stack items vertically */
+      padding: 15px;
+    }
+  
+    .card-content {
+      padding-right: 0;
+      text-align: center;
+    }
+  
+    .hline {
+      font-size: 1.4rem;
+    }
+  
+    .pline {
+      font-size: 0.95rem;
+    }
+  
+    .card-image {
+      width: 100%; /* Full width image on small screens */
+      margin-top: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hline {
+      font-size: 1.2rem;
+    }
+  
+    .pline {
+      font-size: 0.9rem;
+    }
+  
+    .getintouch {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  }
+  
+
+.footer {
+    background-color: black;
+    padding-bottom: 50px;
+}
+
+.fname {
+    border: none;
+    color: white;
+    margin-top: 35px;
+    padding-left: 300px;
+    padding-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 768px) {
+    .fname {
+        border: none;
+        color: white;
+        margin-top: 35px;
+        padding-left: 40px;
+        padding-top: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+.getint {
+    border: none;
+    color: white;
+    margin-top: 0px;
+    padding-left: 300px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .getint {
+        border: none;
+    color: white;
+    margin-top: 0px;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 20px;
+    font-weight: 600;
+    }
+}
+
+.email {
+    border: none;
+    color: white;
+    margin-top: 0px;
+    padding-left: 300px;
+    padding-top: 0px;
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: black;
+    font-size: 12px;
+}
+@media (max-width: 768px) {
+    .email {
+        border: none;
+    color: white;
+    margin-top: 0px;
+    padding-left: 40px;
+    padding-top: 0px;
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: black;
+    font-size: 12px;
+    }
+}
+
+.email:hover {
+    color: rgb(255, 0, 85);
+}
+
+.followus {
+    border: none;
+    color: white;
+    margin-top: 0px;
+    padding-left: 300px;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .followus {
+        border: none;
+    color: white;
+    margin-top: 0px;
+    padding-left: 40px;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: black;
+    font-size: 20px;
+    font-weight: 600;
+    }
+}
+
+.fb {
+    border: none;
+    color: rgb(255, 0, 85);
+    margin-top: 0px;
+    padding-left: 300px;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: black;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .fb {
+        border: none;
+    color: rgb(255, 0, 85);
+    margin-top: 0px;
+    padding-left: 40px;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: black;
+    font-size: 25px;
+    font-weight: 600;
+    }
+}
+
+.fb:hover {
+    color: rgb(235, 2, 80);
+}
+
+.workwithus {
+    border: none;
+    color: white;
+    margin-top: 0px;
+    padding-left: 300px;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .workwithus {
+        border: none;
+    color: white;
+    margin-top: 0px;
+    padding-left: 40px;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: black;
+    font-size: 20px;
+    font-weight: 600;
+    }
+}
+
+.smr {
+    border: none;
+    color: white;
+    margin-top: 0px;
+    padding-left: 300px;
+    padding-top: 0px;
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: black;
+    font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    .smr {
+        border: none;
+    color: white;
+    margin-top: 0px;
+    padding-left: 40px;
+    padding-top: 0px;
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: black;
+    font-size: 12px;
+    }
+}
+.smr:hover {
+    color: rgb(255, 0, 85);
+}
+
+.testimonial-section {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    max-width: 800px;
+  }
+  
+  .testimonial-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial {
+    margin-bottom: 15px;
+  }
+  
+  .testimonial-quote {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .testimonial-author {
+    font-size: 1rem;
+    color: #999;
+  }

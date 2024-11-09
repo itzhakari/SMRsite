@@ -1,0 +1,502 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Background */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #3700ce, #FF007F); /* Purple to Pink gradient */
+    color: white;
+    padding: 0 20px;
+    overflow-x: hidden;
+}
+
+
+/* Header */
+.header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.page-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10rem;
+}
+@media (max-width: 768px){
+    .page-title {
+        font-size: 3rem;
+        font-weight: bold;
+        color: #fff;
+        margin-top: 7rem;
+    }
+}
+
+.hname {
+    position: absolute;
+    top: 30px;                        /* Positioned at the top of the image */
+    left: 11%;                       /* Positioned from the left of the image */
+    color: white;                   /* White text */
+    background: transparent;  /* Semi-transparent black background */
+    font-size: 2.2rem;              /* Text size */
+    text-align: center;             /* Center the text */
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 10px 5px 15px black;  /* Shadow effect */
+    padding: 10px 20px;             /* Padding around the text */
+    border: none;                   /* Remove default button border */
+    border-radius: 5px;             /* Rounded corners */
+    cursor: pointer;                /* Pointer cursor for interactivity */
+    z-index: 1;                     /* Ensure button is on top */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+/*.hname:hover {
+
+}*/
+
+@media (max-width: 768px) {
+    .hname {
+        font-size: 1.7rem;          /* Smaller font size for mobile */
+        top: 15px;                     /* Position closer to the top */
+        left: 10px;                 /* Adjust left padding for mobile */
+        padding: 5px 10px;          /* Adjust padding for smaller screens */
+        border-radius: 3px;         /* Slightly smaller rounded corners */
+    }
+}
+
+.runads {
+    position: absolute;
+    top: 2.5rem;                        /* Positioned at the top of the image */
+    left: 32.5%;                      /* Positioned from the left of the image */
+    color: white;                   /* White text */
+    background: transparent;        /* Transparent background */
+    font-size: 20px;                /* Text size */
+    text-align: center;             /* Center the text */
+    font-family: 'Arial', sans-serif;
+    text-shadow: 10px 5px 15px black;  /* Shadow effect */
+    padding: 10px 20px;             /* Padding around the text */
+    border: none;                   /* Remove default button border */
+    border-radius: 5px;             /* Rounded corners */
+    cursor: pointer;                /* Pointer cursor for interactivity */
+    z-index: 1;                     /* Ensure button is on top */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.runads:hover {
+    color: rgb(255, 0, 85);         /* Change text color on hover */
+}
+
+/* Media query to hide the button on mobile */
+@media (max-width: 768px) {
+    .runads {
+        display: none;              /* Hide the button on mobile devices */
+    }
+}
+
+.webdev {
+    position: absolute;
+    top: 2.5rem;                        /* Positioned at the top of the image */
+    left: 44%;                      /* Positioned from the left of the image */
+    color: white;                   /* White text */
+    background: transparent;        /* Transparent background */
+    font-size: 20px;                /* Text size */
+    text-align: center;             /* Center the text */
+    font-family: 'Arial', sans-serif;
+    text-shadow: 10px 5px 15px black;  /* Shadow effect */
+    padding: 10px 20px;             /* Padding around the text */
+    border: none;                   /* Remove default button border */
+    border-radius: 5px;             /* Rounded corners */
+    cursor: pointer;                /* Pointer cursor for interactivity */
+    z-index: 1;                     /* Ensure button is on top */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.webdev:hover {
+    color: rgb(255, 0, 85);         /* Change text color on hover */
+}
+
+/* Media query to hide the button on mobile */
+@media (max-width: 768px) {
+    .webdev {
+        display: none;              /* Hide the button on mobile devices */
+    }
+}
+
+.about {
+    position: absolute;
+    top: 2.5rem;                        /* Positioned at the top of the image */
+    left: 61.5%;                      /* Positioned from the left of the image */
+    color: white;                   /* White text */
+    background: transparent;        /* Transparent background */
+    font-size: 20px;                /* Text size */
+    text-align: center;             /* Center the text */
+    font-family: 'Arial', sans-serif;
+    text-shadow: 10px 5px 15px black;  /* Shadow effect */
+    padding: 10px 20px;             /* Padding around the text */
+    border: none;                   /* Remove default button border */
+    border-radius: 5px;             /* Rounded corners */
+    cursor: pointer;                /* Pointer cursor for interactivity */
+    z-index: 1;                     /* Ensure button is on top */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.about:hover {
+    color: rgb(255, 0, 85);         /* Change text color on hover */
+}
+
+/* Media query to hide the button on mobile */
+@media (max-width: 768px) {
+    .about {
+        display: none;              /* Hide the button on mobile devices */
+    }
+}
+
+.contact {
+    position: absolute;
+    top: 2.5rem;                        /* Positioned at the top of the image */
+    left: 80%;                      /* Positioned from the left of the image */
+    color: white;                   /* White text */
+    background-color: rgb(255, 0, 85);        /* Transparent background */
+    font-size: 20px;                /* Text size */
+    text-align: center;             /* Center the text */
+    font-family: 'Arial', sans-serif;
+    text-shadow: 10px 5px 15px black;  /* Shadow effect */
+    padding: 10px 20px;             /* Padding around the text */
+    border: none;                   /* Remove default button border */
+    border-radius: 20px;             /* Rounded corners */
+    cursor: pointer;                /* Pointer cursor for interactivity */
+    z-index: 1;                     /* Ensure button is on top */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.contact:hover {
+    background-color: rgb(60, 0, 255);
+}
+
+/* Media query to hide the button on mobile */
+@media (max-width: 768px) {
+    .contact {
+        display: none;              /* Hide the button on mobile devices */
+    }
+}
+/* Bar Button Styles */
+.barbtn {
+    position: absolute;
+    top: 30px;
+    left: 6%;
+    color: white;
+    background: transparent;
+    font-size: 2.2rem;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 10px 5px 15px black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1;
+    transition: background-color 0.3s ease;
+    display: none; /* Show on mobile */
+}
+
+/* Cross Button Styles */
+.crossbtn {
+    position: absolute;
+    top: 15px;
+    left: 88%;
+    color: white;
+    background: transparent;
+    font-size: 1.9rem;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    z-index: 1;
+    display: none; /* Show on specific pages */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .barbtn {
+        font-size: 1.7rem;
+        top: 15px;
+        left: 88%;
+        padding: 5px 10px;
+        display: block; /* Show bar button */
+    }
+}
+
+
+
+
+/* Content Section */
+.content {
+    margin: 40px 0;
+    padding-top: 1rem; /* Add padding to move the content down */
+}
+
+/* Adjusting the intro section */
+.intro {
+    text-align: center;
+    margin-top: 1rem; /* Optional, increase this if you need more space */
+}
+
+
+.intro-text {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.intro-subtext {
+    font-size: 1.2rem;
+}
+
+/* Services Section */
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.service-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+.service-title {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    font-size: 1rem;
+}
+
+/* CTA Section */
+.cta {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cta-text {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #ff0066;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: rgb(60, 0, 255);
+}
+
+.footer {
+    background-color: black;
+    padding-bottom: 50px;
+    margin-left: -2rem;
+    margin-right: -30px;
+}
+
+
+.fname {
+    border: none;
+    color: white;
+    margin-top: 35px;
+    padding-left: 300px;
+    padding-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 768px) {
+    .fname {
+        border: none;
+        color: white;
+        margin-top: 35px;
+        padding-left: 60px;
+        padding-top: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+.getint {
+    border: none;
+    color: white;
+    margin-top: 0px;
+    padding-left: 300px;
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .getint {
+        border: none;
+    color: white;
+    margin-top: 0px;
+    padding-left: 60px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 20px;
+    font-weight: 600;
+    }
+}
+
+.email {
+    border: none;
+    color: white;
+    margin-top: 0px;
+    padding-left: 300px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: black;
+    font-size: 12px;
+}
+@media (max-width: 768px) {
+    .email {
+        border: none;
+    color: white;
+    margin-top: 0px;
+    padding-left: 60px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: black;
+    font-size: 12px;
+    }
+}
+
+.email:hover {
+    color: rgb(255, 0, 85);
+}
+
+.followus {
+    border: none;
+    color: white;
+    margin-top: 0px;
+    padding-left: 300px;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .followus {
+        border: none;
+    color: white;
+    margin-top: 0px;
+    padding-left: 60px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: black;
+    font-size: 20px;
+    font-weight: 600;
+    }
+}
+
+.fb {
+    border: none;
+    color: rgb(255, 0, 85);
+    margin-top: 0px;
+    padding-left: 300px;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: black;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .fb {
+        border: none;
+    color: rgb(255, 0, 85);
+    margin-top: 0px;
+    padding-left: 60px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: black;
+    font-size: 25px;
+    font-weight: 600;
+    }
+}
+
+.fb:hover {
+    color: rgb(235, 2, 80);
+}
+
+.workwithus {
+    border: none;
+    color: white;
+    margin-top: 0px;
+    padding-left: 300px;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .workwithus {
+        border: none;
+    color: white;
+    margin-top: 0px;
+    padding-left: 60px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: black;
+    font-size: 20px;
+    font-weight: 600;
+    }
+}
+
+.smr {
+    border: none;
+    color: white;
+    margin-top: 0px;
+    padding-left: 300px;
+    padding-top: 0px;
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: black;
+    font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    .smr {
+        border: none;
+    color: white;
+    margin-top: 0px;
+    padding-left: 60px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: black;
+    font-size: 12px;
+    }
+}
+.smr:hover {
+    color: rgb(255, 0, 85);
+}

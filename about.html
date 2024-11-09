@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script>
+        // JavaScript to handle the bar button click event and navigate to bar.html
+        document.addEventListener('DOMContentLoaded', () => {
+            const barButton = document.querySelector('.barbtn');
+
+            if (barButton) {
+                barButton.addEventListener('click', () => {
+                    window.location.href = 'bar.html';  // Navigate to bar.html when clicked
+                });
+            }
+        });
+    </script>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="index.html">
+            <button class="hname">SMR</button>
+        </a>
+        <a href="promote.html">
+            <button class="runads">Promote</button>
+        </a>
+        <a href="webdev.html">
+            <button class="webdev">Web-Dev & Design</button>
+        </a>
+        <a href="about.html">
+            <button class="about">About</button>
+        </a>
+        <button class="contact">Contact us</button>
+        <button class="barbtn"><i class="fas fa-bars"></i></button>
+    </header>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <h1 class="page-title">About Us</h1>
+        <p class="about-text">Welcome to our website! We specialize in providing the best services in web development and design, tailored to meet your unique needs.</p>
+        <div class="about-content">
+            <h2 class="about-title">Our Mission</h2>
+            <p>We aim to deliver high-quality solutions with creativity and precision. Our team is dedicated to ensuring satisfaction through every step of the process.</p>
+
+            <h2 class="about-title">Our Values</h2>
+            <p>We value integrity, innovation, and excellence, working tirelessly to bring your ideas to life and elevate your digital presence.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <h1 class="fname">SMR</h1>
+        <p class="getint">Get in touch</p>
+        <button class="email">blabla@gmail.com</button> <br>
+        <button class="followus">Follow us</button> <br>
+        <button class="fb"><i class="fa-brands fa-facebook"></i></button>
+        <p class="workwithus">Work with us</p>
+        <p class="smr">SMR</p>
+    </footer>
+</body>
+</html>
+
+
